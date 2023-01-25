@@ -12,7 +12,7 @@ CFLAGS	= -std=c99 -pedantic -Wall -Wextra -Werror -O2
 all: $(BIN)
 
 $(BIN):
-	$(CC) -o $@ $(SRC)
+	$(CC) -o $(BIN) $(SRC)
 
 clean:
 	rm -f $(BIN)
